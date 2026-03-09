@@ -1,0 +1,28 @@
+ body:has(.dark-theme){
+  background-color: #000000eb;
+  margin: 0;
+
+}
+ .app-container{
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+ app-container.dark-theme {
+  background-color: #1a1a1a; 
+  color: #ffffff;           
+}
+
+
+.app-container.dark-theme .chat-messages-container {
+  background-color: #242424; 
+}
+
+
+
+
+    
